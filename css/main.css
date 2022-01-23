@@ -9,6 +9,7 @@
     --img-moon: url('../imgs/sun.png');
     --box-shaddow: 0px 0px 0px 2px rgba(255,255,255,0.29);
     --placeholder-color: #ccc;
+    --color-header: #27293549;
 }
 :root {
     --c-body-bg: #fff;
@@ -18,6 +19,7 @@
     --img-moon: url('../imgs/moons.svg');
     --box-shaddow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     --placeholder-color: #161f38;
+    --color-header: rgba(255, 255, 255, 0.329);
 }
 
 *, 
@@ -71,7 +73,7 @@ ul{
 .site-header{
     padding: 24px 0;
     margin-bottom: 40px;
-    background-color: var(--c-body-bg);
+    background-color: var(--color-header);
     position: fixed;
     top: 0;
     left: 0;
@@ -253,7 +255,7 @@ ul{
 .hero-input:focus{
     outline: 1px solid #0057ff;
     border: none;
-    background-color: var(--c-text-main)
+    background-color: var(--c-body-bg);
 }
 
 .hero-input::placeholder{
